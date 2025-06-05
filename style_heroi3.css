@@ -1,0 +1,210 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0%;
+    background-color: #C40000;
+    border: solid 0.3vw black;
+}
+
+header{
+    background-color: black;
+    margin: 0;
+    padding: 0.7vw;
+    height: 4vW;
+}
+
+.logo{
+    position: absolute;
+    left: 86.5%;
+    top: 0.5vw;
+    height: 5vw;
+}
+
+nav{
+    background-color: #353131;
+    padding: 0.3vw;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline;
+}
+
+.buttonli1{
+    list-style: none;
+    display: inline;
+    padding: 0.5vw 4vw 0.5vw 4vw;
+    margin-right: 8vw;
+    background-color: #A7A0A0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buttonli1:hover {
+    background-color: rgb(129, 127, 127);
+}
+
+.buttonli2{
+    list-style: none;
+    display: inline;
+    padding: 0.5vw 4vw 0.5vw 4vw;
+    margin-right: 8vw;
+    background-color: #A7A0A0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buttonli2:hover {
+    background-color: rgb(129, 127, 127);
+}
+
+.buttonli3{
+    list-style: none;
+    display: inline;
+    padding: 0.5vw 4vw 0.5vw 4vw;
+    margin-right: 8vw;
+    background-color: #A7A0A0;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.buttonli3:hover {
+    background-color: rgb(129, 127, 127);
+}
+
+.h1_heroi{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4vw;
+    position: absolute;
+    left: 5%;
+    top: 12vw;
+    color: white;
+}
+
+.dsheroi{
+    background-color: #D9D9D9;
+    padding: 1vw;
+    width: 50vw;
+    height: 25vw;
+    position: absolute;
+    left: 5%;
+    top: 20vw;
+    border: 0.2vw solid black;
+}
+
+.ds_heroip{
+    font-size: 3vw;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+}
+
+.carrosel_heroi{
+    background-color: #D9D9D9;
+    padding: 1vw;
+    width: 92vw;
+    height: 25vw;
+    position: absolute;
+    left: 2%;
+    top: 55vw;
+    border: 0.2vw solid black;
+}
+
+.carrosel_heroip{
+    font-size: 3vw;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.hr1{
+    position: absolute;
+    top: 95vw;
+    left: 2%;
+    width: 94vw;
+}
+
+.convite{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3vw;
+    position: absolute;
+    top: 97vw;
+    left: 38%;
+    color: white;
+}
+
+#button{
+    position: absolute;
+    top: 105vw;
+    left: 31%;
+    background-color: black;
+    border: none;
+    outline: none;
+    color: #C40000;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    height: 11vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+#button:hover {
+    transform: scale(1.1);
+    background-color: rgb(9,9,9);
+}
+
+.hr2{
+    position: absolute;
+    top: 118vw;
+    left: 2%;
+    width: 94vw;
+
+}
+
+footer {
+    position: absolute;
+    top: 130vw;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: black;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    font-size: 2vw;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+}
